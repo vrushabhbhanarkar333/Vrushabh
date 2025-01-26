@@ -42,6 +42,7 @@ class HomePage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              SizedBox(height: screenHeight * 0.03),
               CarouselPanelWidget(
                 imageUrls: [
                   'assets/credit_card_f.png',
@@ -154,9 +155,9 @@ class HomePage extends StatelessWidget {
                 SizedBox(width: screenWidth * 0.04),
                 Image.asset(
                   'assets/feature-4.png',
-                  height: screenHeight * 0.25,
-                  width: screenWidth * 0.3,
-                  fit: BoxFit.cover,
+                  height: screenHeight * 0.17,
+                  width: screenWidth * 0.30,
+                  fit: BoxFit.fill,
                 ),
               ],
             ),

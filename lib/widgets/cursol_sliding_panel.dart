@@ -28,7 +28,7 @@ class _CarouselPanelWidgetState extends State<CarouselPanelWidget> {
           clipper: BottomRightClipper(),
           child: Container(
             color: AppColors.greyColor,
-            height: screenHeight * 0.33, // Increased height for larger carousel
+            height: screenHeight * 0.31,
             width: double.infinity,
           ),
         ),
@@ -36,6 +36,7 @@ class _CarouselPanelWidgetState extends State<CarouselPanelWidget> {
           top: 0,
           left: 0,
           right: 0,
+          bottom: 60,
           child: CarouselSlider(
             options: CarouselOptions(
               enlargeCenterPage: true,
